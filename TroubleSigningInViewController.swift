@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  TroubleSigningInViewController.swift
 //  Dropbox
 //
 //  Created by Rebecca Goldman on 5/10/15.
@@ -8,17 +8,12 @@
 
 import UIKit
 
-class SettingsViewController: UIViewController {
-    
-    @IBOutlet weak var scrollView: UIScrollView!
+class TroubleSigningInViewController: UIViewController {
 
-    @IBOutlet weak var settingsImageView: UIImageView!
+    @IBOutlet weak var cancelButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        scrollView.contentSize = settingsImageView.image!.size
-
 
         // Do any additional setup after loading the view.
     }
@@ -28,6 +23,10 @@ class SettingsViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func cancelButton(sender: AnyObject) {
+        
+        dismissViewControllerAnimated(false, completion:nil)
+    }
 
     /*
     // MARK: - Navigation
