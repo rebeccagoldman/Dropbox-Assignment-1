@@ -13,9 +13,10 @@ class CreateAccountViewController: UIViewController {
     
     @IBOutlet weak var backButton: UIButton!
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
 
@@ -31,6 +32,11 @@ class CreateAccountViewController: UIViewController {
          navigationController?.popViewControllerAnimated(true)
     }
     
+    @IBAction func dismissKeyboard(sender: AnyObject) {
+        
+        view.endEditing(true)
+
+    }
 
     /*
     // MARK: - Navigation

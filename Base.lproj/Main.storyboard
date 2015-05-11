@@ -85,7 +85,8 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Nte-EE-1Uo" kind="modal" animates="NO" id="2cP-f9-rGt"/>
+                                    <action selector="dismissKeyboard:" destination="LB4-WL-57J" eventType="touchUpInside" id="qnt-kl-IJO"/>
+                                    <segue destination="Nte-EE-1Uo" kind="modal" animates="NO" id="PeD-bx-fsM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Nwo-C3-Eru">
@@ -98,6 +99,34 @@
                                     <action selector="backButton:" destination="LB4-WL-57J" eventType="touchUpInside" id="JJW-CL-Bam"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="John" minimumFontSize="17" id="E9B-Wq-KTW">
+                                <rect key="frame" x="116" y="88" width="193" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Required" minimumFontSize="17" id="G4i-2A-y6w">
+                                <rect key="frame" x="116" y="220" width="193" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Appleseed" minimumFontSize="17" id="KIL-6p-P5F">
+                                <rect key="frame" x="116" y="132" width="193" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" minimumFontSize="17" id="gir-Vw-tG3">
+                                <rect key="frame" x="116" y="176" width="193" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -151,7 +180,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cw8-gI-W1b" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="815" y="-220"/>
+            <point key="canvasLocation" x="837" y="-258"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="7FI-RG-iRH">
@@ -191,7 +220,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="acT-DC-wOP" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1216" y="-220"/>
+            <point key="canvasLocation" x="1208" y="-258"/>
         </scene>
         <!--Create Account View Controller-->
         <scene sceneID="odL-zP-yi1">
@@ -212,7 +241,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Kdq-EV-6yZ" kind="modal" animates="NO" id="Krq-pm-sOe"/>
+                                    <segue destination="Kdq-EV-6yZ" kind="modal" animates="NO" id="Q1z-E1-UDM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="nrd-uf-Qj1">
@@ -234,7 +263,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NaU-zO-Hfe" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1617" y="-220"/>
+            <point key="canvasLocation" x="1581" y="-258"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="QNF-d4-Tzv">
@@ -598,6 +627,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="dismissKeyboard:" destination="p2m-Ow-P8C" eventType="touchUpInside" id="R4n-VD-Ufb"/>
                                     <segue destination="FNL-Er-0w2" kind="modal" animates="NO" id="qXc-q3-weH"/>
                                 </connections>
                             </button>
@@ -611,6 +641,20 @@
                                     <action selector="backButton:" destination="p2m-Ow-P8C" eventType="touchUpInside" id="j4d-Qc-8EM"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" minimumFontSize="17" id="4m5-zX-ZrL">
+                                <rect key="frame" x="111" y="109" width="193" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" id="eVZ-6O-OAq">
+                                <rect key="frame" x="111" y="153" width="193" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -1019,7 +1063,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="mrl-3b-qgs"/>
         <segue reference="r9A-MC-uVz"/>
+        <segue reference="mrl-3b-qgs"/>
     </inferredMetricsTieBreakers>
 </document>

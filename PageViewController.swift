@@ -22,7 +22,7 @@ class PageViewController: UIViewController {
         super.viewDidLoad()
 
         welcomeScrollView.contentSize = CGSize(width: 960, height: 568)
-        
+                
         // Do any additional setup after loading the view.
     }
 

@@ -30,6 +30,11 @@ class SignInViewController: UIViewController {
         
     }
 
+    @IBAction func dismissKeyboard(sender: AnyObject) {
+        
+        view.endEditing(true)
+
+    }
     /*
     // MARK: - Navigation
 
