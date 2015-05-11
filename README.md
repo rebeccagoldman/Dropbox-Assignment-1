@@ -1,6 +1,8 @@
-# Dropbox-Assignment-
+# Project 1 
 
-5 hours to complete
+The flow through the Dropbox app
+
+Time spent: 5 hours
 
 Which required and optional stories have you completed?
 
